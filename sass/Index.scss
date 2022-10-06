@@ -1,0 +1,1213 @@
+/* Barra de Navegacion -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.NavbarLogo {
+  width: 45%;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  font-size: 105%;
+}
+a.navbar-brand {
+  margin: {
+    right: 5%;
+    left: 2%;
+  }
+  width: 200px;
+}
+.nav-item {
+  padding: 2%;
+}
+/* Fin Barra de Navegacion -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Index ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.IndexBody {
+  background-color: #ebecf0;
+  height: 100vh;
+  width: 100%;
+}
+.IndexPre {
+  height: 30%;
+  width: 50%;
+  margin: auto;
+  margin-top: 0%;
+}
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.IndexResLogo {
+  float: left;
+  width: 20%;
+  margin: {
+    top: 4.5%;
+    left: 4%;
+    right: auto;
+  }
+}
+.IndexResLogo:hover {
+  animation: rotate-center 0.6s ease-in-out both;
+}
+.IndexResPres {
+  font: {
+    family: "Dancing Script", cursive;
+    size: 350%;
+  }
+  text-align: center;
+  float: left;
+  margin: {
+    top: 7%;
+    left: auto;
+    right: auto;
+  }
+  width: 60%;
+}
+.IndexResPres {
+  span {
+    font: {
+      family: initial;
+      style: italic;
+      size: 45%;
+    }
+  }
+}
+.CarruselContainer {
+  margin: auto;
+  width: 70%;
+  height: auto;
+  border: {
+    radius: 10px;
+  }
+  border: solid 3px black;
+  div {
+    div {
+      div {
+        img {
+          object-fit: cover;
+          width: 1366px;
+          height: 600px;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
+/* Fin Index -------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+/* Menu  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.MenuSec {
+  width: 100%;
+  height: 240%;
+  font: {
+    family: "Patua One", cursive;
+    weight: 0;
+  }
+  div {
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    background-color: #dad6cc;
+    overflow: auto;
+    div {
+      border: 2px solid rgba(0, 0, 0, 0.8);
+      border-radius: 15px;
+      background-color: #ffffff;
+      margin: auto;
+      width: 80%;
+      p {
+        font-size: 85%;
+        width: 50%;
+        float: left;
+        text-align: center;
+        vertical-align: middle;
+        margin: {
+          left: 11%;
+          top: 2%;
+        }
+      }
+      div {
+        width: 30%;
+        float: right;
+        overflow: hidden;
+        border: 0;
+        border-radius: 0 10px 10px 0;
+        background-color: black;
+      }
+      img {
+        object-fit: cover;
+        width: 220px;
+        height: 120px;
+        float: right;
+      }
+    }
+  }
+}
+.Comida {
+  height: 35%;
+  background-color: #444;
+  margin: auto;
+  margin-top: 1%;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-radius: 15px;
+}
+.Desayuno {
+  height: 25%;
+  background-color: #eddbdb;
+  width: 90%;
+  margin: auto;
+  margin-top: 1%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.Bebidas {
+  height: 25%;
+  background-color: #e4d8d8;
+  width: 90%;
+  margin: auto;
+  margin-top: 1%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.Postre {
+  height: 25%;
+  background-color: #f1e8e8;
+  width: 90%;
+  margin: auto;
+  margin-top: 1%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.MenuIcons {
+  width: 2.5%;
+  position: absolute;
+  margin: {
+    top: 0.4%;
+    left: 0.4%;
+  }
+}
+
+/* Fin Menu ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Reservacion -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.ReserDecor {
+  font: {
+    family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    size: 110%;
+  }
+  text-align: center;
+  margin: auto;
+  margin-top: 3%;
+  height: 15vh;
+  width: 90%;
+}
+.ReserCont {
+  font-family: "Baskervville", serif;
+  height: 50%;
+  width: 90%;
+  margin: auto;
+  margin-bottom: -15%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 50% 40%;
+  border-radius: 15px;
+}
+.ReserReserva {
+  font-size: 110%;
+  text-align: center;
+  margin: {
+    top: 5%;
+    left: 30%;
+  }
+  padding: 2%;
+  width: 50%;
+  height: 60%;
+  border: solid 1px;
+  border-radius: 15px;
+  border: solid 3px #bba227;
+  background-color: rgb(245, 245, 242);
+  p {
+    font-family: "Baskervville", serif;
+    margin-top: 5%;
+  }
+}
+.ReserReservaButton {
+  font-size: 110%;
+  text-align: center;
+  margin: {
+    top: 10%;
+    left: 30%;
+    right: 30%;
+  }
+  padding: 2%;
+  border-radius: 15px;
+  border: solid 2px;
+  background-color: rgb(255, 253, 208);
+  a {
+    text-decoration: none;
+    color: #bba227;
+  }
+}
+.ReserReservaButton:hover {
+  background-color: silver;
+}
+.ReserChefs {
+  float: left;
+}
+
+/* Fin Reservacion -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Informacion -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.InfoPres {
+  font: {
+    family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    size: 110%;
+  }
+  text-align: center;
+  margin: auto;
+  margin-top: 3%;
+  height: 15vh;
+  width: 90%;
+}
+.InfoCont {
+  width: 70%;
+  height: 30%;
+  margin: auto;
+  margin-top: 3%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  border-radius: 15px;
+}
+.InfoResHis {
+  font-size: 120%;
+  text-align: center;
+  float: left;
+  margin: auto;
+  margin-top: 4%;
+  width: 80%;
+}
+.InfoMap,
+.gmap_canvas,
+#gmap_canvas {
+  width: 85%;
+  height: 100%;
+  align-items: center;
+  margin: auto;
+  margin-left: 10%;
+}
+#gmap_canvas {
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+}
+
+/* Fin Informacion  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Contacto -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.ConPres {
+  font: {
+    family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    size: 170%;
+  }
+  margin-top: 3%;
+  text-align: center;
+}
+.ConCont {
+  font-family: "Baskervville", serif;
+  width: 50%;
+  height: 40%;
+  margin: auto;
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.ConInfoCont {
+  font-size: 120%;
+  margin-right: 0;
+  text-align: center;
+}
+.ConForm {
+  margin-top: -1%;
+}
+.ConFormFields {
+  text-align: center;
+}
+.TextInput {
+  margin-bottom: 4%;
+  width: 80%;
+  font-size: 110%;
+}
+Textarea {
+  width: 81%;
+  font-size: 120%;
+  resize: none;
+}
+.SubmitButton {
+  margin: auto;
+  width: 40%;
+  font-size: 120%;
+}
+
+/* Fin Contacto -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Footer ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.FooterCon {
+  color: #dadada;
+  background-color: #252525;
+  height: 35vh;
+  width: 102%;
+  bottom: 0;
+  margin: {
+    top: 20%;
+    bottom: -20%;
+    left: -2%;
+  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  min-height: 20%;
+  div {
+    text-align: center;
+    font-size: 90%;
+    margin: 2%;
+    margin-top: 5%;
+    width: 20%;
+  }
+}
+.Redes {
+  a {
+    img {
+      width: 45px;
+      padding: 1%;
+    }
+  }
+}
+/* Fin Footer */
+
+/* MAX WIDTH 1366PX -----------------------------------------------------------------------------------------------------------------------*/
+/* MAX WIDTH 1366PX -----------------------------------------------------------------------------------------------------------------------*/
+/* MAX WIDTH 1366PX -----------------------------------------------------------------------------------------------------------------------*/
+/* MAX WIDTH 1366PX -----------------------------------------------------------------------------------------------------------------------*/
+/* MAX WIDTH 1366PX -----------------------------------------------------------------------------------------------------------------------*/
+/* MAX WIDTH 1366PX -----------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 1366px) {
+  /* Barra de Navegacion 1366px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+  .NavbarLogo {
+    width: 35%;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    font-size: 95%;
+  }
+  a.navbar-brand {
+    margin: {
+      right: 5%;
+      left: 2%;
+    }
+    width: 200px;
+  }
+  .nav-item {
+    padding: 2%;
+  }
+  /* Fin Barra de Navegacion 1366px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+  /* Index 1366px ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .IndexBody {
+    background-color: #ebecf0;
+    height: 100vh;
+    width: 100%;
+  }
+  .IndexPre {
+    height: 30%;
+    width: 80%;
+    margin: auto;
+    margin-top: 0%;
+  }
+  @keyframes rotate-center {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .IndexResLogo {
+    float: left;
+    width: 15%;
+    margin: {
+      top: 4.5%;
+      left: 20%;
+      right: auto;
+    }
+  }
+  .IndexResLogo:hover {
+    animation: rotate-center 0.6s ease-in-out both;
+  }
+  .IndexResPres {
+    font: {
+      family: "Dancing Script", cursive;
+      size: 300%;
+    }
+    text-align: center;
+    float: left;
+    margin: {
+      top: 7%;
+      left: -10%;
+      right: auto;
+    }
+    width: 60%;
+  }
+  .IndexResPres {
+    span {
+      font: {
+        family: initial;
+        style: italic;
+        size: 35%;
+      }
+    }
+  }
+  .CarruselContainer {
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    height: auto;
+    border: {
+      style: solid;
+      radius: 10px;
+    }
+    border: solid 3px black;
+    div {
+      div {
+        div {
+          img {
+            object-fit: cover;
+            width: 1366px;
+            height: 500px;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+  /* Fin Index 1366px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+  /* Menu 1366px  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  .MenuSec {
+    width: 100%;
+    height: 280%;
+    font: {
+      family: "Patua One", cursive;
+      weight: 0;
+    }
+    div {
+      border-radius: 15px;
+      border: 2px solid rgba(0, 0, 0, 0.8);
+      background-color: #dad6cc;
+      overflow: auto;
+      div {
+        border: 2px solid rgba(0, 0, 0, 0.8);
+        border-radius: 15px;
+        background-color: #ffffff;
+        margin: auto;
+        width: 80%;
+        p {
+          font-size: 70%;
+          width: 50%;
+          float: left;
+          text-align: center;
+          vertical-align: middle;
+          margin: {
+            left: 11%;
+            top: 2%;
+          }
+        }
+        div {
+          width: 30%;
+          float: right;
+          overflow: hidden;
+          border: 0;
+          border-radius: 0 10px 10px 0;
+          background-color: black;
+        }
+        img {
+          object-fit: cover;
+          width: 200px;
+          height: 100px;
+          float: right;
+        }
+      }
+    }
+  }
+  .Comida {
+    height: 35%;
+    background-color: #444;
+    margin: auto;
+    margin-top: 1%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 15px;
+  }
+  .Desayuno {
+    height: 25%;
+    background-color: #eddbdb;
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .Bebidas {
+    height: 25%;
+    background-color: #e4d8d8;
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .Postre {
+    height: 25%;
+    background-color: #f1e8e8;
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .MenuIcons {
+    width: 2.5%;
+    position: absolute;
+    margin: {
+      top: 0.4%;
+      left: 0.4%;
+    }
+  }
+
+  /* Fin Menu 1366px ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+  /* Reservacion 1366px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  .ReserDecor {
+    font: {
+      family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      size: 100%;
+    }
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    height: 15vh;
+    width: 90%;
+  }
+  .ReserCont {
+    font-family: "Baskervville", serif;
+    height: 50%;
+    width: 90%;
+    margin: auto;
+    margin-bottom: -15%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    border-radius: 15px;
+  }
+  .ReserReserva {
+    font-size: 110%;
+    text-align: center;
+    margin: {
+      top: 5%;
+      left: 30%;
+    }
+    padding: 2%;
+    width: 60%;
+    height: 70%;
+    border: solid 1px;
+    border-radius: 15px;
+    border: solid 3px #bba227;
+    background-color: rgb(245, 245, 242);
+    p {
+      font-family: "Baskervville", serif;
+      margin-top: 5%;
+    }
+  }
+  .ReserReservaButton {
+    font-size: 110%;
+    text-align: center;
+    margin: {
+      top: 10%;
+      left: 30%;
+      right: 30%;
+    }
+    padding: 2%;
+    border-radius: 15px;
+    border: solid 2px;
+    background-color: rgb(255, 253, 208);
+    a {
+      text-decoration: none;
+      color: #bba227;
+    }
+  }
+  .ReserReservaButton:hover {
+    background-color: silver;
+  }
+  .ReserChefs {
+    float: left;
+    img {
+      width: 90%;
+    }
+  }
+
+  /* Fin Reservacion 1366px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+  /* Informacion 1366px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  .InfoPres {
+    font: {
+      family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      size: 100%;
+    }
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    height: 15vh;
+    width: 90%;
+  }
+  .InfoCont {
+    width: 80%;
+    height: 30%;
+    margin: auto;
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 15px;
+  }
+  .InfoResHis {
+    font-size: 100%;
+    text-align: center;
+    float: left;
+    margin: auto;
+    margin-top: 1%;
+    width: 80%;
+  }
+  .InfoMap,
+  .gmap_canvas,
+  #gmap_canvas {
+    width: 90%;
+    height: 95%;
+    align-items: center;
+    margin: auto;
+    margin-left: 5%;
+  }
+  #gmap_canvas {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+  }
+
+  /* Fin Informacion 1366px  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+  /* Contacto 1366px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  .ConPres {
+    font: {
+      family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      size: 150%;
+    }
+    margin-top: 3%;
+    text-align: center;
+  }
+  .ConCont {
+    font-family: "Baskervville", serif;
+    width: 70%;
+    height: 40%;
+    margin: auto;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .ConInfoCont {
+    font-size: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+  .ConForm {
+    margin-top: -1%;
+  }
+  .ConFormFields {
+    text-align: center;
+  }
+  .TextInput {
+    margin-bottom: 4%;
+    width: 70%;
+    font-size: 100%;
+  }
+  Textarea {
+    width: 71%;
+    font-size: 100%;
+    resize: none;
+  }
+  .SubmitButton {
+    margin: auto;
+    width: 40%;
+    font-size: 100%;
+  }
+
+  /* Fin Contacto 1366px-------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+  /* Footer 1366px ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .FooterCon {
+    color: #dadada;
+    background-color: #252525;
+    height: 35vh;
+    width: 102%;
+    bottom: 0;
+    margin: {
+      top: 20%;
+      bottom: -20%;
+      left: -2%;
+    }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    min-height: 20%;
+    div {
+      text-align: center;
+      font-size: 80%;
+      margin: 2%;
+      margin-top: 5%;
+      width: 20%;
+    }
+  }
+  .Redes {
+    a {
+      img {
+        width: 35px;
+        padding: 1%;
+      }
+    }
+  }
+  /* Fin Footer 1366px */
+}
+
+/* MOBILE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* MOBILE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* MOBILE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* MOBILE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* MOBILE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 480px) {
+  /* Barra de Navegacion 480px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+  .NavbarLogo {
+    width: 30%;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    font-size: 90%;
+  }
+  a.navbar-brand {
+    margin: {
+      right: 5%;
+      left: 2%;
+    }
+    width: 150;
+  }
+  .nav-item {
+    padding: 2%;
+  }
+  /* Fin Barra de Navegacion 480px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+  /* Index 480px ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .IndexBody {
+    background-color: #ebecf0;
+    height: 100vh;
+    width: 100%;
+  }
+  .IndexPre {
+    height: 55%;
+    width: 80%;
+    margin: auto;
+    margin-top: 0%;
+  }
+  @keyframes rotate-center {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .IndexResLogo {
+    float: left;
+    width: 60%;
+    margin: {
+      top: 4.5%;
+      left: 20%;
+      right: auto;
+    }
+  }
+  .IndexResLogo:hover {
+    animation: rotate-center 0.6s ease-in-out both;
+  }
+  .IndexResPres {
+    font: {
+      family: "Dancing Script", cursive;
+      size: 300%;
+    }
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin: {
+      top: 7%;
+      left: 0%;
+      right: auto;
+    }
+    span {
+      width: 100%;
+      font: {
+        family: initial;
+        style: italic;
+        size: 30%;
+      }
+  }
+  }
+  .CarruselContainer {
+    margin: auto;
+    margin-top: 40%;
+    width: 90%;
+    height: auto;
+    border: {
+      style: solid;
+      radius: 10px;
+    }
+    border: solid 3px black;
+    div {
+      div {
+        div {
+          img {
+            object-fit: cover;
+            width: 1366px;
+            height: 500px;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+  /* Fin Index 480px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+  /* Menu 480px  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  .MenuSec {
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+    margin: auto;
+
+    font: {
+      family: "Patua One", cursive;
+      weight: 0;
+    }
+    div {
+      border-radius: 15px;
+      border: 2px solid rgba(0, 0, 0, 0.8);
+      background-color: #dad6cc;
+      padding-bottom: 5%;
+      div {
+        margin: auto;
+        margin-top: 35%;
+        width: 90%;
+        p {
+          width: 90%;
+          text-align: center;
+          vertical-align: middle;
+          font-size: 80%;
+          height: 153px;
+          margin: {
+            left: 5%;
+            top: 5%;
+          }
+        }
+        div {
+          margin-top: 13%;
+          width: 100%;
+          border-radius: 0px 0px 0 0px;
+        }
+        padding: 0;
+        img {
+          object-fit: cover;
+          width: 100%;
+          height: 100px;
+          border-radius: 0px 0px 10px 10px;
+        }
+      }
+    }
+  }
+  .Comida {
+    height: 140%;
+    background-color: #444;
+    margin: auto;
+    margin-top: 15%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 5%;
+  }
+  .Desayuno {
+    height: 130%;
+    background-color: #444;
+    margin: auto;
+    margin-top: 15%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 5%;
+  }
+  .Bebidas {
+    height: 160%;
+    background-color: #444;
+    margin: auto;
+    margin-top: 15%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 5%;
+  }
+  .Postre {
+    height: 130%;
+    background-color: #444;
+    margin: auto;
+    margin-top: 15%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 5%;
+  }
+  .MenuIcons {
+    width: 14%;
+    margin: {
+      top: 0.4%;
+      left: 38%;
+    }
+  }
+
+  /* Fin Menu 480px ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+  /* Reservacion 480px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  .ReserDecor {
+    font: {
+      family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      size: 100%;
+    }
+    font-size: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20%;
+    height: auto;
+    width: 96%;
+  }
+  .ReserCont {
+    font-family: "Baskervville", serif;
+    height: 80%;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto;
+    border-radius: 15px;
+  }
+  .ReserReserva {
+    margin: auto;
+    margin: {
+      top: 5%;
+      left: 5%;
+    }
+    font-size: 110%;
+    text-align: center;
+    padding: 2%;
+    width: 90%;
+    height: 90%;
+    border: solid 1px;
+    border-radius: 15px;
+    border: solid 3px #bba227;
+    p {
+      font-family: "Baskervville", serif;
+      margin-top: 5%;
+    }
+  }
+  .ReserReservaButton {
+    margin: {
+      top: 10%;
+      left: 30%;
+      right: 30%;
+    }
+    font-size: 100%;
+    text-align: center;
+    padding: 2%;
+    border-radius: 15px;
+    border: solid 2px;
+    a {
+      text-decoration: none;
+      color: #bba227;
+    }
+  }
+  .ReserReservaButton:hover {
+    background-color: silver;
+  }
+  .ReserChefs {
+    float: left;
+    img {
+      width: 80%;
+      margin-left: 10%;
+    }
+  }
+
+  /* Fin Reservacion 480px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+  /* Informacion 480px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  .InfoPres {
+    font: {
+      family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      size: 100%;
+    }
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    height: auto;
+    width: 90%;
+  }
+  .InfoCont {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: auto;
+    border-radius: 15px;
+  }
+  .InfoResHis {
+    font-size: 90%;
+    text-align: center;
+    float: left;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    width: 80%;
+  }
+  .InfoMap,
+  .gmap_canvas,
+  #gmap_canvas {
+    width: 96%;
+    height: 300px;
+    align-items: center;
+    margin: auto;
+    margin-left: 2%;
+  }
+  #gmap_canvas {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+  }
+
+  /* Fin Informacion 480px  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+  /* Contacto 480px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  .ConPres {
+    font: {
+      family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      size: 150%;
+    }
+    margin-top: 3%;
+    text-align: center;
+  }
+  .ConCont {
+    font-family: "Baskervville", serif;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .ConInfoCont {
+    font-size: 110%;
+    margin-right: 0;
+    text-align: center;
+  }
+  .ConForm {
+    margin-top: 5%;
+    margin-bottom: 100%;
+  }
+  .ConFormFields {
+    text-align: center;
+  }
+  .TextInput {
+    margin-bottom: 4%;
+    width: 80%;
+    font-size: 100%;
+    border: 1px solid black;
+  }
+  Textarea {
+    width: 81%;
+    font-size: 100%;
+    resize: none;
+    border: 1px solid black;
+  }
+  .SubmitButton {
+    margin: auto;
+    width: 40%;
+    font-size: 110%;
+    border: 1px solid black;
+  }
+
+  /* Fin Contacto 480px-------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+  /* Footer 480px ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .FooterCon {
+    color: #dadada;
+    background-color: #252525;
+    height: 75vh;
+    width: 100%;
+    bottom: 0;
+    margin: {
+      top: 20%;
+      bottom: -20%;
+      left: 0%;
+      right: 0;
+    }
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    min-height: 20%;
+    div {
+      text-align: center;
+      font-size: 75%;
+      margin: 0%;
+      margin-top: 5%;
+      width: 100%;
+    }
+  }
+  .Redes {
+    a {
+      img {
+        width: 45px;
+        padding: 1%;
+        margin-bottom: 10%;
+      }
+    }
+  }
+  /* Fin Footer 480px */
+}
