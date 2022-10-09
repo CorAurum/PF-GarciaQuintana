@@ -25,10 +25,12 @@ a.navbar-brand {
   background-color: #ebecf0;
   height: 100vh;
   width: 100%;
+  min-height: 100vh;
 }
 
 .IndexPre {
-  height: 30%;
+  height: 18em;
+  min-height: 16em;
   width: 50%;
   margin: auto;
   margin-top: 0%;
@@ -54,9 +56,10 @@ a.navbar-brand {
 .IndexResLogo {
   float: left;
   width: 20%;
-  margin-top: 4.5%;
+  margin-top: 3.5%;
   margin-left: 4%;
   margin-right: auto;
+  min-width: auto;
 }
 
 .IndexResLogo:hover {
@@ -83,8 +86,8 @@ a.navbar-brand {
 
 .CarruselContainer {
   margin: auto;
-  width: 70%;
-  height: auto;
+  width: 80%;
+  min-height: 550px;
   border-radius: 10px;
   border: solid 3px black;
 }
@@ -92,7 +95,7 @@ a.navbar-brand {
   -o-object-fit: cover;
      object-fit: cover;
   width: 1366px;
-  height: 600px;
+  height: 650px;
   border-radius: 5px;
 }
 
@@ -184,10 +187,20 @@ a.navbar-brand {
 }
 
 .MenuIcons {
-  width: 2.5%;
+  width: 3.5%;
+  height: 6%;
   position: absolute;
+  background: transparent;
+  border: none;
   margin-top: 0.4%;
   margin-left: 0.4%;
+}
+.MenuIcons img {
+  width: 100%;
+}
+
+.MenuIconsMobile {
+  display: none;
 }
 
 /* Fin Menu ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -358,7 +371,8 @@ Textarea {
 .FooterCon {
   color: #dadada;
   background-color: #252525;
-  height: 35vh;
+  height: 20em;
+  min-height: 18em;
   width: 102%;
   bottom: 0;
   margin-top: 20%;
@@ -368,7 +382,6 @@ Textarea {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  min-height: 20%;
 }
 .FooterCon div {
   text-align: center;
@@ -414,10 +427,13 @@ Textarea {
     background-color: #ebecf0;
     height: 100vh;
     width: 100%;
+    min-height: 100vh;
+    min-height: 100vh;
   }
   .IndexPre {
-    height: 30%;
     width: 80%;
+    height: 10em;
+    min-height: 8em;
     margin: auto;
     margin-top: 0%;
   }
@@ -467,7 +483,8 @@ Textarea {
     margin: auto;
     margin-top: 5%;
     width: 80%;
-    height: auto;
+    height: 450px;
+    min-height: 400px;
     border-style: solid;
     border-radius: 10px;
     border: solid 3px black;
@@ -476,7 +493,7 @@ Textarea {
     -o-object-fit: cover;
        object-fit: cover;
     width: 1366px;
-    height: 500px;
+    height: 445px;
     border-radius: 5px;
   }
   /* Fin Index 1366px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
@@ -567,6 +584,9 @@ Textarea {
     position: absolute;
     margin-top: 0.4%;
     margin-left: 0.4%;
+  }
+  .MenuIconsMobile {
+    display: none;
   }
   /* Fin Menu 1366px ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
   /* Reservacion 1366px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -720,7 +740,8 @@ Textarea {
   .FooterCon {
     color: #dadada;
     background-color: #252525;
-    height: 35vh;
+    height: 16em;
+    min-height: 14em;
     width: 102%;
     bottom: 0;
     margin-top: 20%;
@@ -730,7 +751,6 @@ Textarea {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    min-height: 20%;
   }
   .FooterCon div {
     text-align: center;
@@ -883,7 +903,7 @@ Textarea {
     height: 100px;
     border-radius: 0px 0px 10px 10px;
   }
-  .Comida {
+  .ComidaHide {
     height: 140%;
     background-color: #444;
     margin: auto;
@@ -893,7 +913,7 @@ Textarea {
     grid-template-columns: 50% 50%;
     padding-bottom: 5%;
   }
-  .Desayuno {
+  .DesayunoHide {
     height: 130%;
     background-color: #444;
     margin: auto;
@@ -903,7 +923,7 @@ Textarea {
     grid-template-columns: 50% 50%;
     padding-bottom: 5%;
   }
-  .Bebidas {
+  .BebidasHide {
     height: 160%;
     background-color: #444;
     margin: auto;
@@ -913,7 +933,7 @@ Textarea {
     grid-template-columns: 50% 50%;
     padding-bottom: 5%;
   }
-  .Postre {
+  .PostreHide {
     height: 130%;
     background-color: #444;
     margin: auto;
@@ -923,10 +943,37 @@ Textarea {
     grid-template-columns: 50% 50%;
     padding-bottom: 5%;
   }
+  .Comida {
+    display: none;
+  }
+  .Desayuno {
+    display: none;
+  }
+  .Bebidas {
+    display: none;
+  }
+  .Postre {
+    display: none;
+  }
   .MenuIcons {
     width: 14%;
     margin-top: 0.4%;
     margin-left: 38%;
+  }
+  .MIMContainer {
+    margin-left: 12%;
+  }
+  .MIMContainer .MenuIconsMobile {
+    display: inline-block;
+    width: 20%;
+    margin: auto;
+    margin-top: 5%;
+  }
+  .MIMContainer .MenuIconsMobile img {
+    width: 80%;
+  }
+  .Hide {
+    display: none;
   }
   /* Fin Menu 480px ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
   /* Reservacion 480px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
