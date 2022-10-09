@@ -50,72 +50,22 @@
 
 <!--SCRIPS DE BOTONES MOBILE------------------------------------------------------------------------------------------------------------>
 
-<script>
-
-    function func1() 
-    
-    {
-        if (document.getElementById("ComidaID").classList.contains("ComidaHide")){
-            document.getElementById("ComidaID").classList.remove('ComidaHide');
-            document.getElementById("ComidaID").classList.add('Comida');
-        } else {
-        document.getElementById("ComidaID").classList.remove('Comida');
-        document.getElementById("ComidaID").classList.add('ComidaHide');
-        }
-       
-    }
-    function func2() 
-    {
-        if (document.getElementById("DesayunoID").classList.contains("DesayunoHide")){
-            document.getElementById("DesayunoID").classList.remove('DesayunoHide');
-            document.getElementById("DesayunoID").classList.add('Desayuno');
-        } else {
-        document.getElementById("DesayunoID").classList.remove('Desayuno');
-        document.getElementById("DesayunoID").classList.add('DesayunoHide');
-        }
-       
-    }
-    function func3()
-    {
-        if (document.getElementById("PostreID").classList.contains("PostreHide")){
-            document.getElementById("PostreID").classList.remove('PostreHide');
-            document.getElementById("PostreID").classList.add('Postre');
-        } else {
-        document.getElementById("PostreID").classList.remove('Postre');
-        document.getElementById("PostreID").classList.add('PostreHide');
-        }
-       
-    }
-    function func4() 
-    
-    {
-        if (document.getElementById("BebidasID").classList.contains("BebidasHide")){
-            document.getElementById("BebidasID").classList.remove('BebidasHide');
-            document.getElementById("BebidasID").classList.add('Bebidas');
-        } else {
-        document.getElementById("BebidasID").classList.remove('Bebidas');
-        document.getElementById("BebidasID").classList.add('BebidasHide');
-        }
-       
-    }
-
-
-</script>
+<script src="../js/BotonesMenuMobile.js"> </script>
 
 <!--FIN DE SCRIPS DE BOTONES MOBILE----------------------------------------------------------------------------------------------------->
 
 <div Class="MIMContainer">
-<button class="MenuIconsMobile" onclick="func1();"> <img  src="https://cdn-icons-png.flaticon.com/512/1046/1046874.png"> </button>
-<button class="MenuIconsMobile" onclick="func2();"> <img src="https://cdn-icons-png.flaticon.com/512/751/751621.png"></button>
-<button class="MenuIconsMobile" onclick="func3();"> <img src="https://cdn-icons-png.flaticon.com/512/2215/2215897.png"></button>
-<button class="MenuIconsMobile" onclick="func4();"><img src="https://cdn-icons-png.flaticon.com/512/2907/2907439.png"></button>
+<button class="MenuIconsMobile" id="MenuIconsMobileComida"   onclick="func1();"> <img  src="https://cdn-icons-png.flaticon.com/512/1046/1046874.png"> </button>
+<button class="MenuIconsMobile" id="MenuIconsMobileDesayuno" onclick="func2();"> <img src="https://cdn-icons-png.flaticon.com/512/751/751621.png"></button>
+<button class="MenuIconsMobile" id="MenuIconsMobilePostre"   onclick="func3();"> <img src="https://cdn-icons-png.flaticon.com/512/2215/2215897.png"></button>
+<button class="MenuIconsMobile" id="MenuIconsMobileBebidas"  onclick="func4();"><img src="https://cdn-icons-png.flaticon.com/512/2907/2907439.png"></button>
 </div>
     <div class="MenuSec" id="MenuSecID">
         
         <div class="Comida" id="ComidaID">
             
         
-           <button class="MenuIcons" > <img  src="https://cdn-icons-png.flaticon.com/512/1046/1046874.png"> </button>
+           <img class="MenuIcons"  src="https://cdn-icons-png.flaticon.com/512/1046/1046874.png"> 
             
             <div class="Plato 1">
                 <p>BROCHETTES VEGGIE<br> Brochettes de vegetales: calabaza, morrón,  cebollines y hongos con salsa cheddar cebolla  caramelizada y boniatos asados con hierbas</p>
@@ -176,7 +126,7 @@
 
         <div class="Desayuno" id="DesayunoID">
 
-            <button class="MenuIcons"> <img src="https://cdn-icons-png.flaticon.com/512/751/751621.png"></button>
+            <img class="MenuIcons" src="https://cdn-icons-png.flaticon.com/512/751/751621.png">
             
             <div class="Plato 7">
                 <p>AMERICANO<br> Preparado con una medida de   espresso y agua caliente </p>
@@ -226,8 +176,8 @@
 
         <div class="Postre" id="PostreID">
       
-            <button class="MenuIcons"> <img src="https://cdn-icons-png.flaticon.com/512/2215/2215897.png"></button>
-                
+            <img class="MenuIcons" src="https://cdn-icons-png.flaticon.com/512/2215/2215897.png">
+
             <div class="Plato 13">
             
                   <p>TIRAMISÚ <br>
@@ -275,7 +225,7 @@
         
         <div class="Bebidas" id="BebidasID">
 
-            <button class="MenuIcons"><img src="https://cdn-icons-png.flaticon.com/512/2907/2907439.png"></button>
+           <img class="MenuIcons" src="https://cdn-icons-png.flaticon.com/512/2907/2907439.png">
                 
 
             <div class="Plato 19">

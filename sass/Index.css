@@ -956,7 +956,8 @@ Textarea {
     display: none;
   }
   .MenuIcons {
-    width: 14%;
+    width: 12%;
+    height: auto;
     margin-top: 0.4%;
     margin-left: 38%;
   }
