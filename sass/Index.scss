@@ -971,7 +971,6 @@ Textarea {
           text-align: center;
           vertical-align: middle;
           font-size: 80%;
-          height: 153px;
           margin: {
             left: 5%;
             top: 5%;
@@ -1002,6 +1001,13 @@ Textarea {
     display: grid;
     grid-template-columns: 50% 50%;
     padding-bottom: 5%;
+    div {
+      height: 300px;
+      overflow: hidden;
+      p {
+        height: 163px;
+      }
+    }
   }
   .DesayunoHide {
     height: auto;
@@ -1012,6 +1018,13 @@ Textarea {
     display: grid;
     grid-template-columns: 50% 50%;
     padding-bottom: 5%;
+    div {
+      height: 240px;
+      overflow: hidden;
+      p {
+        height: 100px;
+      }
+    }
   }
   .BebidasHide {
     height: auto;
@@ -1022,6 +1035,13 @@ Textarea {
     display: grid;
     grid-template-columns: 50% 50%;
     padding-bottom: 5%;
+    div {
+      height: 240px;
+      overflow: hidden;
+      p {
+        height: 100px;
+      }
+    }
   }
   .PostreHide {
     height: auto;
@@ -1032,6 +1052,13 @@ Textarea {
     display: grid;
     grid-template-columns: 50% 50%;
     padding-bottom: 5%;
+    div {
+      height: 280px;
+      overflow: hidden;
+      p {
+        height: 140px;
+      }
+    }
   }
   .Comida {
     display: none;
@@ -1110,7 +1137,7 @@ Textarea {
     text-align: center;
     padding: 2%;
     width: 90%;
-    height: 80%;
+    height: 220px;
     border: solid 1px;
     border-radius: 15px;
     border: solid 3px #bba227;
@@ -1215,7 +1242,7 @@ Textarea {
     grid-template-columns: auto;
   }
   .ConInfoCont {
-    font-size: 110%;
+    font-size: 100%;
     margin-right: 0;
     text-align: center;
   }
