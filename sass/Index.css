@@ -103,7 +103,9 @@ a.navbar-brand {
 /* Menu  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .MenuSec {
   width: 100%;
-  height: 240%;
+  min-width: 80%;
+  height: 120em;
+  min-height: 130em;
   font-family: "Patua One", cursive;
   font-weight: 0;
 }
@@ -146,7 +148,7 @@ a.navbar-brand {
 }
 
 .Comida {
-  height: 35%;
+  height: 40em;
   background-color: #444;
   margin: auto;
   margin-top: 1%;
@@ -157,7 +159,7 @@ a.navbar-brand {
 }
 
 .Desayuno {
-  height: 25%;
+  height: 33em;
   background-color: #eddbdb;
   width: 90%;
   margin: auto;
@@ -167,7 +169,7 @@ a.navbar-brand {
 }
 
 .Bebidas {
-  height: 25%;
+  height: 33em;
   background-color: #e4d8d8;
   width: 90%;
   margin: auto;
@@ -177,7 +179,7 @@ a.navbar-brand {
 }
 
 .Postre {
-  height: 25%;
+  height: 33em;
   background-color: #f1e8e8;
   width: 90%;
   margin: auto;
@@ -187,8 +189,8 @@ a.navbar-brand {
 }
 
 .MenuIcons {
-  width: 3.5%;
-  height: 6%;
+  width: 2.5%;
+  height: auto;
   position: absolute;
   background: transparent;
   border: none;
@@ -217,8 +219,9 @@ a.navbar-brand {
 
 .ReserCont {
   font-family: "Baskervville", serif;
-  height: 50%;
-  width: 90%;
+  height: 28em;
+  min-height: 24em;
+  width: 80%;
   margin: auto;
   margin-bottom: -15%;
   margin-top: 5%;
@@ -796,7 +799,8 @@ Textarea {
     width: 100%;
   }
   .IndexPre {
-    height: 55%;
+    height: 18em;
+    min-height: 17em;
     width: 80%;
     margin: auto;
     margin-top: 0%;
@@ -842,7 +846,7 @@ Textarea {
     width: 100%;
     font-family: initial;
     font-style: italic;
-    font-size: 30%;
+    font-size: 34%;
   }
   .CarruselContainer {
     margin: auto;
@@ -863,9 +867,10 @@ Textarea {
   /* Fin Index 480px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
   /* Menu 480px  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
   .MenuSec {
-    margin-top: 20%;
     width: 90%;
     height: auto;
+    min-height: auto;
+    min-width: auto;
     margin: auto;
     font-family: "Patua One", cursive;
     font-weight: 0;
@@ -904,7 +909,7 @@ Textarea {
     border-radius: 0px 0px 10px 10px;
   }
   .ComidaHide {
-    height: 140%;
+    height: auto;
     background-color: #444;
     margin: auto;
     margin-top: 15%;
@@ -914,7 +919,7 @@ Textarea {
     padding-bottom: 5%;
   }
   .DesayunoHide {
-    height: 130%;
+    height: auto;
     background-color: #444;
     margin: auto;
     margin-top: 15%;
@@ -924,7 +929,7 @@ Textarea {
     padding-bottom: 5%;
   }
   .BebidasHide {
-    height: 160%;
+    height: auto;
     background-color: #444;
     margin: auto;
     margin-top: 15%;
@@ -934,7 +939,7 @@ Textarea {
     padding-bottom: 5%;
   }
   .PostreHide {
-    height: 130%;
+    height: auto;
     background-color: #444;
     margin: auto;
     margin-top: 15%;
@@ -991,7 +996,7 @@ Textarea {
   .ReserCont {
     font-family: "Baskervville", serif;
     height: 80%;
-    width: 100%;
+    width: 80%;
     margin: auto;
     margin-top: 5%;
     display: grid;
@@ -1002,11 +1007,11 @@ Textarea {
     margin: auto;
     margin-top: 5%;
     margin-left: 5%;
-    font-size: 110%;
+    font-size: 100%;
     text-align: center;
     padding: 2%;
     width: 90%;
-    height: 90%;
+    height: 80%;
     border: solid 1px;
     border-radius: 15px;
     border: solid 3px #bba227;
@@ -1036,7 +1041,7 @@ Textarea {
     float: left;
   }
   .ReserChefs img {
-    width: 80%;
+    width: 90%;
     margin-left: 10%;
   }
   /* Fin Reservacion 480px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -1112,12 +1117,12 @@ Textarea {
   }
   .TextInput {
     margin-bottom: 4%;
-    width: 80%;
+    width: 90%;
     font-size: 100%;
     border: 1px solid black;
   }
   Textarea {
-    width: 81%;
+    width: 91%;
     font-size: 100%;
     resize: none;
     border: 1px solid black;
@@ -1133,7 +1138,8 @@ Textarea {
   .FooterCon {
     color: #dadada;
     background-color: #252525;
-    height: 75vh;
+    height: 30em;
+    min-height: 28em;
     width: 100%;
     bottom: 0;
     margin-top: 20%;
