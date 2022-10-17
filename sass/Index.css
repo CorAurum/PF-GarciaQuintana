@@ -1559,11 +1559,11 @@ Textarea {
     width: 100%;
     font-family: initial;
     font-style: italic;
-    font-size: 40%;
+    font-size: 34%;
   }
   .CarruselContainer {
     margin: auto;
-    margin-top: 20%;
+    margin-top: 25%;
     width: 90%;
     height: auto;
     border-style: solid;
