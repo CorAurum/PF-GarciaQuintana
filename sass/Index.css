@@ -1604,7 +1604,7 @@ Textarea {
     width: 90%;
     text-align: center;
     vertical-align: middle;
-    font-size: 80%;
+    font-size: 70%;
     margin-left: 5%;
     margin-top: 5%;
   }
@@ -1631,11 +1631,11 @@ Textarea {
     padding-bottom: 5%;
   }
   .ComidaHide div {
-    height: 300px;
+    height: 250px;
     overflow: hidden;
   }
   .ComidaHide div p {
-    height: 163px;
+    height: 123px;
   }
   .DesayunoHide {
     height: auto;
@@ -1715,8 +1715,8 @@ Textarea {
   .MIMContainer .MenuIconsMobile {
     margin-left: 30%;
     display: grid;
-    width: 4em;
-    height: 4em;
+    width: 3.3em;
+    height: 3.3em;
     border: none;
     border-radius: 100px;
     outline: none;
