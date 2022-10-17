@@ -1648,11 +1648,11 @@ Textarea {
     padding-bottom: 5%;
   }
   .DesayunoHide div {
-    height: 240px;
+    height: 220px;
     overflow: hidden;
   }
   .DesayunoHide div p {
-    height: 100px;
+    height: 80px;
   }
   .BebidasHide {
     height: auto;
@@ -1665,11 +1665,11 @@ Textarea {
     padding-bottom: 5%;
   }
   .BebidasHide div {
-    height: 240px;
+    height: 200px;
     overflow: hidden;
   }
   .BebidasHide div p {
-    height: 100px;
+    height: 60px;
   }
   .PostreHide {
     height: auto;
@@ -1682,11 +1682,11 @@ Textarea {
     padding-bottom: 5%;
   }
   .PostreHide div {
-    height: 280px;
+    height: 240px;
     overflow: hidden;
   }
   .PostreHide div p {
-    height: 140px;
+    height: 110px;
   }
   .Comida {
     display: none;
@@ -1856,7 +1856,7 @@ Textarea {
     grid-template-columns: auto;
   }
   .ConInfoCont {
-    font-size: 100%;
+    font-size: 90%;
     margin-right: 0;
     text-align: center;
   }
