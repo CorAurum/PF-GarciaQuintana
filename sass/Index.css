@@ -9,10 +9,21 @@
   font-size: 105%;
 }
 
+.navbar-custom, .navbar-brand,
+.navbar-custom, .navbar-text {
+  background-color: #3b3b3b;
+}
+
+.nav-link {
+  font-family: "Lato", sans-serif !important;
+}
+
 a.navbar-brand {
   margin-right: 5%;
   margin-left: 2%;
   width: 200px;
+  font-family: "Dancing Script", cursive;
+  font-size: 130%;
 }
 
 .nav-item {
@@ -56,7 +67,7 @@ a.navbar-brand {
 .IndexResLogo {
   float: left;
   width: 20%;
-  margin-top: 3.5%;
+  margin-top: 4%;
   margin-left: 4%;
   margin-right: auto;
   min-width: auto;
@@ -69,7 +80,7 @@ a.navbar-brand {
 
 .IndexResPres {
   font-family: "Dancing Script", cursive;
-  font-size: 350%;
+  font-size: 300%;
   text-align: center;
   float: left;
   margin-top: 7%;
@@ -295,7 +306,7 @@ a.navbar-brand {
 }
 
 .InfoResHis {
-  font-size: 120%;
+  font-size: 110%;
   text-align: center;
   float: left;
   margin: auto;
@@ -768,6 +779,356 @@ Textarea {
   }
   /* Fin Footer 1366px */
 }
+@media only screen and (max-width: 1024px) {
+  /* Index 1024px ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .IndexBody {
+    background-color: #ebecf0;
+    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100vh;
+  }
+  .IndexPre {
+    width: 80%;
+    height: 10em;
+    min-height: 8em;
+    margin: auto;
+    margin-top: 0%;
+  }
+  @-webkit-keyframes rotate-center {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .IndexResLogo {
+    float: left;
+    width: 15%;
+    margin-top: 4.5%;
+    margin-left: 15%;
+    margin-right: auto;
+  }
+  .IndexResLogo:hover {
+    -webkit-animation: rotate-center 0.6s ease-in-out both;
+            animation: rotate-center 0.6s ease-in-out both;
+  }
+  .IndexResPres {
+    font-family: "Dancing Script", cursive;
+    font-size: 300%;
+    text-align: center;
+    float: left;
+    margin-top: 7%;
+    margin-left: -5%;
+    margin-right: auto;
+    width: 60%;
+  }
+  .IndexResPres span {
+    font-family: initial;
+    font-style: italic;
+    font-size: 35%;
+  }
+  .CarruselContainer {
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    height: 450px;
+    min-height: 400px;
+    border-style: solid;
+    border-radius: 10px;
+    border: solid 3px black;
+  }
+  .CarruselContainer div div div img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 1366px;
+    height: 445px;
+    border-radius: 5px;
+  }
+  /* Fin Index 1024px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+  /* Menu 1024px  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  .MenuSec {
+    width: 100%;
+    height: 150em;
+    font-family: "Patua One", cursive;
+    font-weight: 0;
+  }
+  .MenuSec div {
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    background-color: #dad6cc;
+    overflow: auto;
+  }
+  .MenuSec div div {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin: auto;
+    width: 90%;
+  }
+  .MenuSec div div p {
+    font-size: 70%;
+    width: 50%;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 11%;
+    margin-top: 2%;
+  }
+  .MenuSec div div div {
+    width: 30%;
+    float: right;
+    overflow: hidden;
+    border: 0;
+    border-radius: 0 10px 10px 0;
+    background-color: black;
+  }
+  .MenuSec div div img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 200px;
+    height: 120px;
+    float: right;
+  }
+  .Comida {
+    height: 45em;
+    min-height: 40em;
+    background-color: #444;
+    margin: auto;
+    margin-top: 1%;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 15px;
+  }
+  .Desayuno {
+    height: 35em;
+    min-height: 30em;
+    background-color: #eddbdb;
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .Bebidas {
+    height: 35em;
+    min-height: 30em;
+    background-color: #e4d8d8;
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .Postre {
+    height: 35em;
+    min-height: 30em;
+    background-color: #f1e8e8;
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .MenuIcons {
+    width: 3%;
+    position: absolute;
+    margin-top: 0.4%;
+    margin-left: 0.4%;
+  }
+  .MenuIconsMobile {
+    display: none;
+  }
+  /* Fin Menu 1024px ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  /* Reservacion 1024px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  .ReserDecor {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    height: 15vh;
+    min-height: 10vh;
+    width: 90%;
+  }
+  .ReserCont {
+    font-family: "Baskervville", serif;
+    height: 50%;
+    width: 100%;
+    margin: auto;
+    margin-bottom: -15%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 15px;
+  }
+  .ReserReserva {
+    font-size: 110%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 20%;
+    padding: 2%;
+    width: 18em;
+    height: 15em;
+    border: solid 1px;
+    border-radius: 15px;
+    border: solid 3px #bba227;
+    background-color: rgb(245, 245, 242);
+  }
+  .ReserReserva p {
+    font-family: "Baskervville", serif;
+    margin-top: 5%;
+  }
+  .ReserReservaButton {
+    font-size: 110%;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 2%;
+    border-radius: 15px;
+    border: solid 2px;
+    background-color: rgb(255, 253, 208);
+  }
+  .ReserReservaButton a {
+    text-decoration: none;
+    color: #bba227;
+  }
+  .ReserReservaButton:hover {
+    background-color: silver;
+  }
+  .ReserChefs {
+    float: left;
+  }
+  .ReserChefs img {
+    width: 95%;
+  }
+  /* Fin Reservacion 1024px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  /* Informacion 1024px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  .InfoPres {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    height: 15vh;
+    width: 90%;
+  }
+  .InfoCont {
+    width: 80%;
+    height: 26em;
+    min-height: 20em;
+    margin: auto;
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 15px;
+  }
+  .InfoResHis {
+    font-size: 100%;
+    text-align: center;
+    float: left;
+    margin: auto;
+    margin-top: 5%;
+    width: 90%;
+  }
+  .InfoMap,
+.gmap_canvas,
+#gmap_canvas {
+    width: 93%;
+    height: 90%;
+    align-items: center;
+    margin: auto;
+    margin-left: 5%;
+  }
+  #gmap_canvas {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+  }
+  /* Fin Informacion 1024px  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  /* Contacto 1024px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  .ConPres {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    margin-top: 3%;
+    text-align: center;
+  }
+  .ConCont {
+    font-family: "Baskervville", serif;
+    width: 70%;
+    height: 40%;
+    margin: auto;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .ConInfoCont {
+    font-size: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+  .ConForm {
+    margin-top: -1%;
+  }
+  .ConFormFields {
+    text-align: center;
+  }
+  .TextInput {
+    margin-bottom: 4%;
+    width: 70%;
+    font-size: 100%;
+  }
+  Textarea {
+    width: 71%;
+    font-size: 100%;
+    resize: none;
+  }
+  .SubmitButton {
+    margin: auto;
+    width: 40%;
+    font-size: 100%;
+  }
+  /* Fin Contacto 1024px-------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  /* Footer 1024px ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+  .FooterCon {
+    color: #dadada;
+    background-color: #252525;
+    height: 16em;
+    min-height: 14em;
+    width: 102%;
+    bottom: 0;
+    margin-top: 20%;
+    margin-bottom: -20%;
+    margin-left: -2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .FooterCon div {
+    text-align: center;
+    font-size: 80%;
+    margin: 2%;
+    margin-top: 5%;
+    width: 20%;
+  }
+  .Redes a img {
+    width: 35px;
+    padding: 1%;
+  }
+  /* Fin Footer 1024px */
+}
 /* MOBILE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* MOBILE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* MOBILE ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -994,16 +1355,28 @@ Textarea {
     margin-left: 38%;
   }
   .MIMContainer {
-    margin-left: 12%;
+    margin: auto;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
   }
   .MIMContainer .MenuIconsMobile {
-    display: inline-block;
-    width: 20%;
-    margin: auto;
-    margin-top: 5%;
+    margin-left: 30%;
+    display: grid;
+    width: 4em;
+    height: 4em;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+    background: #8a8a8a;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
   }
   .MIMContainer .MenuIconsMobile img {
     width: 80%;
+    margin: auto;
+  }
+  .MenuIconsMobile:focus {
+    background: #fdea8b;
   }
   .Hide {
     display: none;
