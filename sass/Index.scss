@@ -1961,7 +1961,7 @@ Textarea {
   .ReserCont {
     font-family: "Baskervville", serif;
     height: 80%;
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-top: 5%;
     display: grid;
@@ -1969,16 +1969,16 @@ Textarea {
     border-radius: 15px;
   }
   .ReserReserva {
-    margin: auto;
     margin: {
       top: 5%;
-      left: 0%;
+      left: auto;
+      right: auto;
     }
     font-size: 100%;
     text-align: center;
     padding: 5%;
-    width: 90%;
-    height: 220px;
+    width: 16em;
+    height: 230px;
     border: solid 1px;
     border-radius: 15px;
     border: solid 3px #bba227;
@@ -2008,10 +2008,9 @@ Textarea {
   }
   .ReserChefs {
     margin: auto;
-    margin-left: 1em;
     img {
-      width: 20em;
-      margin-left: 0%;
+      width: 18em;
+      margin: auto;
     }
   }
 
