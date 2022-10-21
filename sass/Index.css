@@ -39,11 +39,25 @@ a.navbar-brand {
   min-height: 100vh;
 }
 
+body:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  background: url(https://drive.google.com/uc?export=view&id=167novdVjR5dSaZNzr_bqfnZD_OxGu5bc);
+  background-size: cover;
+}
+
 .IndexPre {
   height: 18em;
   min-height: 16em;
   width: 50%;
   margin: auto;
+  margin-left: 33em;
   margin-top: 0%;
 }
 
@@ -85,8 +99,8 @@ a.navbar-brand {
   float: left;
   margin-top: 7%;
   margin-left: auto;
-  margin-right: auto;
-  width: 60%;
+  margin-right: 10%;
+  width: 50%;
 }
 
 .IndexResPres span {
@@ -134,7 +148,7 @@ a.navbar-brand {
   width: 80%;
 }
 .MenuSec div div p {
-  font-size: 85%;
+  font-size: 80%;
   width: 50%;
   float: left;
   text-align: center;
@@ -262,7 +276,7 @@ a.navbar-brand {
 .ReserReservaButton {
   font-size: 110%;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 15%;
   margin-left: 30%;
   margin-right: 30%;
   padding: 2%;
@@ -306,7 +320,8 @@ a.navbar-brand {
 }
 
 .InfoResHis {
-  font-size: 110%;
+  font-size: 105%;
+  font-family: "Merriweather", serif;
   text-align: center;
   float: left;
   margin: auto;
@@ -400,7 +415,7 @@ Textarea {
 }
 .FooterCon div {
   text-align: center;
-  font-size: 90%;
+  font-size: 80%;
   margin: 2%;
   margin-top: 5%;
   width: 20%;
@@ -958,9 +973,10 @@ Textarea {
     font-size: 100%;
     text-align: center;
     margin: auto;
+    margin-bottom: 10%;
     margin-top: 3%;
     height: 15vh;
-    min-height: 10vh;
+    min-height: 14vh;
     width: 90%;
   }
   .ReserCont {
@@ -975,13 +991,13 @@ Textarea {
     border-radius: 15px;
   }
   .ReserReserva {
-    font-size: 110%;
+    font-size: 100%;
     text-align: center;
     margin-top: 5%;
     margin-left: 20%;
     padding: 2%;
     width: 18em;
-    height: 15em;
+    height: 13em;
     border: solid 1px;
     border-radius: 15px;
     border: solid 3px #bba227;
@@ -994,7 +1010,7 @@ Textarea {
   .ReserReservaButton {
     font-size: 110%;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 30%;
     margin-right: 30%;
     padding: 2%;
@@ -1011,9 +1027,10 @@ Textarea {
   }
   .ReserChefs {
     float: left;
+    margin-left: 10%;
   }
   .ReserChefs img {
-    width: 95%;
+    width: 22em;
   }
   /* Fin Reservacion 1024px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
   /* Informacion 1024px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -1309,29 +1326,29 @@ Textarea {
     text-align: center;
     margin: auto;
     margin-top: 3%;
-    height: 15vh;
-    min-height: 10vh;
+    height: 6em;
+    min-height: 6em;
     width: 90%;
   }
   .ReserCont {
     font-family: "Baskervville", serif;
-    height: 50%;
+    height: 80%;
     width: 100%;
     margin: auto;
     margin-bottom: -15%;
     margin-top: 5%;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 100%;
     border-radius: 15px;
   }
   .ReserReserva {
-    font-size: 110%;
+    font-size: 100%;
     text-align: center;
-    margin-top: 5%;
-    margin-left: 20%;
+    margin: auto;
     padding: 2%;
-    width: 12em;
-    height: 16em;
+    width: 16em;
+    height: 14em;
+    min-height: 10em;
     border: solid 1px;
     border-radius: 15px;
     border: solid 3px #bba227;
@@ -1360,10 +1377,10 @@ Textarea {
     background-color: silver;
   }
   .ReserChefs {
-    float: left;
+    margin: auto;
   }
   .ReserChefs img {
-    width: 95%;
+    width: 18em;
   }
   /* Fin Reservacion 700px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
   /* Informacion 700px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -1373,7 +1390,9 @@ Textarea {
     text-align: center;
     margin: auto;
     margin-top: 3%;
+    margin-bottom: 8%;
     height: 15vh;
+    min-height: 10vh;
     width: 90%;
   }
   .InfoCont {
@@ -1758,10 +1777,10 @@ Textarea {
   .ReserReserva {
     margin: auto;
     margin-top: 5%;
-    margin-left: 5%;
+    margin-left: 0%;
     font-size: 100%;
     text-align: center;
-    padding: 2%;
+    padding: 5%;
     width: 90%;
     height: 220px;
     border: solid 1px;
@@ -1790,11 +1809,12 @@ Textarea {
     background-color: silver;
   }
   .ReserChefs {
-    float: left;
+    margin: auto;
+    margin-left: 1em;
   }
   .ReserChefs img {
-    width: 90%;
-    margin-left: 10%;
+    width: 20em;
+    margin-left: 0%;
   }
   /* Fin Reservacion 480px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
   /* Informacion 480px -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
