@@ -148,6 +148,8 @@ body:before {
   width: 80%;
 }
 .MenuSec div div p {
+  font-family: "Baskervville", serif;
+  font-weight: 800;
   font-size: 80%;
   width: 50%;
   float: left;
@@ -311,7 +313,8 @@ body:before {
 
 .InfoCont {
   width: 70%;
-  height: 14em;
+  height: 18em;
+  min-height: 16em;
   margin: auto;
   margin-top: 3%;
   display: grid;
@@ -1045,8 +1048,8 @@ Textarea {
   }
   .InfoCont {
     width: 80%;
-    height: 26em;
-    min-height: 20em;
+    height: 32em;
+    min-height: 32em;
     margin: auto;
     margin-top: 3%;
     display: grid;
@@ -1397,8 +1400,8 @@ Textarea {
   }
   .InfoCont {
     width: 80%;
-    height: 40em;
-    min-height: 20em;
+    height: 55em;
+    min-height: 55em;
     margin: auto;
     margin-top: 3%;
     display: grid;
