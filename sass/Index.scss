@@ -152,7 +152,9 @@ body:before {
     div {
       border: 2px solid rgba(0, 0, 0, 0.8);
       border-radius: 15px;
-      background-color: #ffffff;
+      background-color: #eedecb;
+      
+	background:url(https://drive.google.com/uc?export=view&id=17o56KVIdAP7meRm_bqjQ3Ji-3kfEV42f);
       margin: auto;
       width: 80%;
       
@@ -402,22 +404,33 @@ body:before {
   margin-bottom: 4%;
   width: 80%;
   font-size: 110%;
+  border-radius: 5px;
+  border: 1px solid black;
+ 
 }
 Textarea {
   width: 81%;
   font-size: 120%;
   resize: none;
+  border-radius: 5px;
+  border: 1px solid black;
 }
 .SubmitButton {
   margin: auto;
   width: 40%;
   font-size: 120%;
+  border-radius: 5px;
+  border: 1px solid black;
 }
 
 /* Fin Contacto -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /* Footer ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
 .FooterCon {
+  border-top: 4px solid #fdea8b;
+  font-family: 'Merriweather', serif;
   color: #dadada;
   background-color: #252525;
   height: 20em;
@@ -439,6 +452,7 @@ Textarea {
     margin: 2%;
     margin-top: 5%;
     width: 20%;
+    p{u{text-decoration: none;}}
   }
 }
 .Redes {
