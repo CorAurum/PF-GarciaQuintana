@@ -277,6 +277,7 @@ body:before {
   border-radius: 15px;
 }
 .ReserReserva {
+ 
   font-size: 110%;
   text-align: center;
   margin: {
@@ -345,7 +346,7 @@ body:before {
   border-radius: 15px;
 }
 .InfoResHis {
-  font-size: 105%;
+  font-size: 1.1em;
   font-family: 'Merriweather', serif;
   text-align: center;
   float: left;
@@ -357,7 +358,7 @@ body:before {
 .gmap_canvas,
 #gmap_canvas {
   width: 85%;
-  height: 100%;
+  height: 95%;
   align-items: center;
   margin: auto;
   margin-left: 10%;
@@ -448,7 +449,7 @@ Textarea {
   justify-content: center;
   div {
     text-align: center;
-    font-size: 80%;
+    font-size: 0.7em;
     margin: 2%;
     margin-top: 5%;
     width: 20%;
@@ -458,7 +459,7 @@ Textarea {
 .Redes {
   a {
     img {
-      width: 45px;
+      width: 40px;
       padding: 1%;
     }
   }
@@ -780,18 +781,18 @@ Textarea {
     border-radius: 15px;
   }
   .InfoResHis {
-    font-size: 100%;
+    font-size: 0.9em;
     text-align: center;
     float: left;
     margin: auto;
-    margin-top: 1%;
+    margin-top: 5%;
     width: 80%;
   }
   .InfoMap,
   .gmap_canvas,
   #gmap_canvas {
     width: 90%;
-    height: 95%;
+    height: 20em;
     align-items: center;
     margin: auto;
     margin-left: 5%;
@@ -848,9 +849,7 @@ Textarea {
     width: 40%;
     font-size: 100%;
   }
-
   /* Fin Contacto 1366px-------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
   /* Footer 1366px ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
   .FooterCon {
     color: #dadada;
@@ -871,7 +870,7 @@ Textarea {
     
     div {
       text-align: center;
-      font-size: 80%;
+      font-size: 0.6em;
       margin: 2%;
       margin-top: 5%;
       width: 20%;
@@ -1186,7 +1185,7 @@ Textarea {
   .gmap_canvas,
   #gmap_canvas {
     width: 93%;
-    height: 90%;
+    height: 18em;
     align-items: center;
     margin: auto;
     margin-left: 5%;
@@ -1210,8 +1209,8 @@ Textarea {
   .ConCont {
     font-family: "Baskervville", serif;
     width: 70%;
-    height: 16em;
-    min-height: 8em;
+    height: 20em;
+    min-height: 10em;
     margin: auto;
     margin-top: 10%;
     display: grid;
@@ -1264,7 +1263,7 @@ Textarea {
     justify-content: center;
     div {
       text-align: center;
-      font-size: 80%;
+      font-size: 0.6em;
       margin: 2%;
       margin-top: 5%;
       width: 20%;
@@ -1273,7 +1272,7 @@ Textarea {
   .Redes {
     a {
       img {
-        width: 35px;
+        width: 30px;
         padding: 1%;
       }
     }
@@ -1557,12 +1556,12 @@ Textarea {
   }
   .InfoCont {
     width: 80%;
-    height: 55em;
-    min-height: 55em;
+    height: 50em;
+    min-height: 50em;
     margin: auto;
     margin-top: 3%;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
     border-radius: 15px;
   }
   .InfoResHis {
@@ -1570,20 +1569,27 @@ Textarea {
     text-align: center;
     float: left;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 0%;
     width: 90%;
   }
   .InfoMap,
   .gmap_canvas,
   #gmap_canvas {
-    width: 93%;
-    height: 90%;
+    width: 20em;
+    height: 20em;
     align-items: center;
     margin: auto;
-    margin-left: 5%;
+    margin-top: 1%;
+    
+    
   }
   #gmap_canvas {
     border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    border-bottom: 2px solid black;
+  }
+  .gmap_canvas {   
+    border-bottom: 2px solid black;
     border-radius: 15px;
   }
   /* Fin Informacion 700px  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -1601,12 +1607,12 @@ Textarea {
   .ConCont {
     font-family: "Baskervville", serif;
     width: 70%;
-    height: 25em;
-    min-height: 20em;
+    height: 35em;
+    min-height: 30em;
     margin: auto;
     margin-top: 10%;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 100%;
   }
   .ConInfoCont {
     font-size: 100%;
@@ -1614,7 +1620,7 @@ Textarea {
     text-align: center;
   }
   .ConForm {
-    margin-top: -1%;
+    margin-top: 10%;
   }
   .ConFormFields {
     text-align: center;
@@ -1655,7 +1661,7 @@ Textarea {
     justify-content: center;
     div {
       text-align: center;
-      font-size: 80%;
+      font-size: 0.6em;
       margin: 2%;
       margin-top: 5%;
       width: 30%;
@@ -2023,8 +2029,9 @@ Textarea {
   .ReserChefs {
     margin: auto;
     img {
-      width: 18em;
+      width: 16em;
       margin: auto;
+      margin-left: 8%;
     }
   }
 
@@ -2064,16 +2071,18 @@ Textarea {
   .InfoMap,
   .gmap_canvas,
   #gmap_canvas {
-    width: 96%;
+    width: 90%;
     height: 300px;
     align-items: center;
     margin: auto;
-    margin-left: 2%;
+    margin-left: 5%;
   }
   #gmap_canvas {
     border: 2px solid rgba(0, 0, 0, 0.8);
     border-radius: 15px;
   }
+  .gmap_canvas{   border-bottom: 0px solid black;}
+
 
   /* Fin Informacion 480px  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -2150,7 +2159,7 @@ Textarea {
     min-height: 20%;
     div {
       text-align: center;
-      font-size: 70%;
+      font-size: 0.6em;
       margin: 0%;
       margin-top: 5%;
       width: 100%;
